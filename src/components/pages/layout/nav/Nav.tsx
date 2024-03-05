@@ -17,7 +17,7 @@ const Nav = () => {
             setValue(path)
         }
 
-    }, [])
+    }, [path])
 
     const handleChange = (event: React.SyntheticEvent, newValue: ITabs) => {
         setValue(newValue);

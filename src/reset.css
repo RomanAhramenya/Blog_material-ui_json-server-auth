@@ -135,5 +135,5 @@ button {
 }
 a {
   text-decoration: none;
-  color: transparent;
+  color: inherit;
 }
