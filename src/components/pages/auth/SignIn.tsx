@@ -84,8 +84,8 @@ const SignIn = () => {
             </form>}
             {user && <>
                 <Typography variant="h4" color={'green'} p={2} textAlign={'center'}>Вы успешно вошли в систему</Typography>
-                <Box>
-                    <Link to='/'>на главную</Link>
+                <Box textAlign={"center"}>
+                    <Button variant="outlined"><Link to='/'>на главную</Link></Button>
                 </Box>
             </>}
         </>
