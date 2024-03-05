@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "email": "roman@gmail.com",
+      "password": "$2a$10$T1m134z6otzn75BrErAe/ejvdeJTAdEhMz6y7xw5JzVYugdLhnooO",
+      "urlImg": "",
+      "name": "",
+      "id": 1
+    },
+    {
+      "email": "nadia@gmail.com",
+      "password": "$2a$10$UwKs5fmUVLfJYnOfc8deI.wlpP3D.T4g5CoLtpyeu4dqGUdGNlbTe",
+      "urlImg": "",
+      "name": "",
+      "id": 2
+    },
+    {
+      "email": "egor@gmail.com",
+      "password": "$2a$10$eOB/ws0.eziIoYswWve0nuy6C.mwxrw1fo4omtj8XgR7rlmvOV20y",
+      "id": 3,
+      "urlImg": "",
+      "name": "Egor"
+    },
+    {
+      "email": "q@gmail.com",
+      "password": "$2a$10$3BecZa97tQ9CknrGDInRM.zy1nc3CSA66QV/dot9zL4hxQ9ZTXPB2",
+      "name": "roman",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "title": "Заголовок поста",
+      "content": "Содержание поста",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "title": "Заголовок поста3",
+      "content": "Содержание поста3",
+      "userId": 1,
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "postId": 1,
+      "userId": 1,
+      "text": "sdffdffd",
+      "id": 1
+    },
+    {
+      "postId": 1,
+      "userId": 1,
+      "text": "класс",
+      "id": 2
+    },
+    {
+      "postId": 1,
+      "userId": 2,
+      "text": "согласна",
+      "id": 3
+    },
+    {
+      "postId": 3,
+      "userId": 2,
+      "text": "класс",
+      "id": 4
+    },
+    {
+      "postId": 3,
+      "userId": 1,
+      "text": "согласен",
+      "id": 5
+    }
+  ]
+}
